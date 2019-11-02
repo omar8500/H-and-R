@@ -13,4 +13,4 @@ export const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-// create routingModule and Module for pages and home and leaves  and user profile
+// create routingModule and Module for pages and home and leaves  and user profile do it on timr
