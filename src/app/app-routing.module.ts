@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'auth', pathMatch: 'full' },
-  { path: 'auth', loadChildren: './auth/auth.module#AuthModule' }, //auth modules
+  { path: 'auth', loadChildren: './auth/auth.module#AuthModule' }, //auth modules do it on time
   { path: 'pages', loadChildren: './pages/feature.module#FeatureModule' }, //create pages and add pages module
 ];
 
