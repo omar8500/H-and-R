@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-export const routes: Routes = [
+
+const routes: Routes = [
   { path: '', redirectTo: 'auth', pathMatch: 'full' },
-  { path: 'auth', loadChildren: './auth/auth.module#AuthModule' }, //auth modules do it on time
-  { path: 'pages', loadChildren: './pages/feature.module#FeatureModule' }, //create pages and add pages module
+  { path: 'auth', redirectTo: 'auth' },
+  // { path: 'pages', redirectTo: 'pages' }
+
 ];
 
 @NgModule({
@@ -13,4 +15,3 @@ export const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-// create routingModule and Module for pages and home and leaves  and user profile do it on timr
