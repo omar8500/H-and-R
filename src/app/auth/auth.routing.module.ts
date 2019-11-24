@@ -10,7 +10,7 @@ export const route:Routes =[{
     path:'auth',
     component:AuthComponent,
     children:[
-        {path:'',redirectTo:'login',pathMatch:'full'},
+     
         {
             path:'login',
             loadChildren:() =>import('./login/login.module').then (mod=>mod.LoginModule)

@@ -15,13 +15,15 @@ children :[
           loadChildren:() =>  import('./home/home.module').then(mod => mod.HomeModule)
       },
 
-    //   {
-    //       loadChildren:() => import('./leaves/leaves.module').then(mod=>mod.LeavesModule)
+      {
+        path:'leaves',
+          loadChildren:() => import('./leaves/leaves.module').then(mod => mod.LeavesModule)
         
-    //   },
+      },
 
       {
-        //  loadChildren:() => import ('./userprofile/userprofile.module') .then (mod => mod.UserprofileModule)
+        path:'userprofile',
+         loadChildren:() => import ('./userprofile/userprofile.module') .then (mod => mod.UserprofileModule)
       }
 
 ]

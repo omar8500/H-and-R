@@ -5,7 +5,8 @@ import { NgModule } from '@angular/core';
 
 @NgModule({
     declarations:[AuthComponent],
-    imports:[AuthRouterModule]
+    imports:[AuthRouterModule],
+    exports:[AuthComponent],
 })
 
 

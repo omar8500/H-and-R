@@ -7,6 +7,7 @@ import { NgModule } from '@angular/core';
 @NgModule({
     imports:[PagesRouterModule],
     declarations:[PagesComponent],
+    exports:[PagesComponent],
 })
 
 

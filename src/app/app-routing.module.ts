@@ -5,8 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   { path: '', redirectTo: 'auth', pathMatch: 'full' },
   { path: 'auth', redirectTo: 'auth' },
-  // { path: 'pages', redirectTo: 'pages' }
-
+  { path: 'pages', redirectTo: 'pages' }
 ];
 
 @NgModule({
