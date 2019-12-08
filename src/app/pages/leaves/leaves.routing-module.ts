@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 
 
 const route:Routes =[{
-    path:'leaves',component:LeavesComponent,
+    path:'',component:LeavesComponent,
 }]
 
 
